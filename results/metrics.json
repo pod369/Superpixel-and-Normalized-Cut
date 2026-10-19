@@ -1,0 +1,37 @@
+{
+  "input": "skimage.data.coffee()",
+  "original_shape_hwc": [
+    400,
+    600,
+    3
+  ],
+  "processed_shape_hwc": [
+    213,
+    320,
+    3
+  ],
+  "max_side": 320,
+  "requested_segments": 200,
+  "rag_sigma": 255.0,
+  "cut_threshold": 0.001,
+  "seed": 0,
+  "scikit_image_version": "0.26.0",
+  "status": "completed",
+  "slic": {
+    "20": {
+      "compactness": 20,
+      "actual_segments": 204,
+      "seconds": 0.4290835950005203
+    },
+    "40": {
+      "compactness": 40,
+      "actual_segments": 216,
+      "seconds": 0.06005485200057592
+    }
+  },
+  "normalized_cut": {
+    "segments": 21,
+    "seconds": 0.8251900790000946,
+    "source_compactness": 20
+  }
+}
